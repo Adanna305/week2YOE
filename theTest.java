@@ -1,5 +1,7 @@
 package Day9;
-import java.util.Scanner;
+
+			
+		import java.util.Scanner;
 
 public class theTest {
 
@@ -23,26 +25,28 @@ public class theTest {
 		food = scam.next();
 		
 		
-		System.out.println("Wow, " + sport + " is an amazing sport that I'm pretty sure you're very good at. I see " + food + " is your favorite food. Good choice, I love" + food + "myself." );
-		
-		int color = 15;
-		int red = 20;
-		int pink = 4;
-		
+		System.out.println("Wow, " + sport + " is an amazing sport that I'm pretty sure you're very good at I see ");
+		System.out.println(food + " is your favorite food good choice, I love " + food );
+		long color = 15;
+		long red = 20;
+		long pink = 4;
+//		long fred = 0;
+//		
+//		fred = scam.nextLong();
 	
 		
-		System.out.println("Have anything adding, subtracting, multiplying, or dividing to do?" + name + " We have a calculator on deck for you. Would you like to try it out? Answer with yes or no please." );
-		
+		System.out.println("Do you have any adding, subtracting, multiplying, or dividing to do? " + name);
+		System.out.println(" We have a calculator, would you like to try it out? Answer with yes or no please.");
 		String answer = "";
 		answer = scam.next();
 		
 		if (answer.equalsIgnoreCase("yes")){
 		
 		System.out.println("Enter a number");
-		color = scam.nextInt();
+		color = scam.nextLong(); 
 		
 		System.out.println("Enter another number");
-		red = scam.nextInt();
+		red = scam.nextLong(); 
 		
 		
 		
@@ -74,6 +78,9 @@ public class theTest {
 
 	}
 	 
+		 
+		
+		
 		 
 		
 		
